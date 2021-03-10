@@ -7,74 +7,93 @@
 *::after {
     box-sizing: border-box;
 }
+
 body {
     font-family: "Roboto", "Noto Sans TC", sans-serif;
     background-color: #fafafa;
+    line-height: 1.5;
 }
+
 img {
     max-width: 100%;
     height: auto;
     display: block;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-bottom: 48px;
+}
+.d-flex {
+    display: flex;
 }
 .h1 {
     font-size: 36px;
-    line-height: 1.2;
     font-weight: bold;
     margin-bottom: 16px;
 }
+
 .h2 {
     font-size: 32px;
-    line-height: 1.5;
-    display: flex;
     align-items: center;
     padding-bottom: 4px;
     border-bottom: 1px solid #000000;
     margin-bottom: 16px;
 }
+
 .h2 span {
     font-size: 24px;
     line-height: 1.2;
     color: #A00404;
     margin-left: 16px;
 }
+
 .profile {
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding: 48px 0px 0px;
 }
+
 .photo {
     max-width: 25%;
     margin-right: 5%;
 }
+
 .profile-inner {
     width: 70%;
 }
+
 .profile-inner p {
-    font-size: 24px;
-    line-height: 1.5;
     margin-bottom: 24px;
 }
+
 .profile-inner ul {
     display: flex;
     flex-wrap: wrap;
 }
+
 .profile-inner ul li {
-    font-size: 24px;
     color: #268ba3;
-    margin: 0px 8px 16px;
+    margin-right: 16px;
 }
-.edu li{
+
+.experience li {
     margin-bottom: 16px;
     line-height: 1.5;
 }
-.edu li span{
+
+.experience li span {
     font-weight: bold;
+}
+
+.ability {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ability section{
+    width: 45%;
 }
