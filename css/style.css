@@ -27,6 +27,10 @@ section {
 }
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
+}
+.jc-sb {
+    justify-content: space-between;
 }
 .h1 {
     font-size: 36px;
@@ -47,7 +51,6 @@ section {
     margin-left: 16px;
 }
 .profile {
-    flex-wrap: wrap;
     align-items: center;
     padding: 48px 0px 0px;
 }
@@ -69,11 +72,7 @@ section {
     color: #268ba3;
     margin-right: 16px;
 }
-.ability {
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.ability section {
+.ability{
     width: 45%;
 }
 .experience li {
@@ -82,4 +81,20 @@ section {
 }
 .experience li span {
     font-weight: bold;
+}
+
+@media screen and (max-width: 767px){
+    section, .photo, .profile-inner, .ability{
+        width: 100%;
+    }
+    body {
+        font-size: 16px;
+    }
+    .profile{
+        padding-top: 24px;
+    }
+    .photo {
+        max-width: 35%;
+        margin: 0 auto;
+    }
 }
