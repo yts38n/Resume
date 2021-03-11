@@ -7,24 +7,21 @@
 *::after {
     box-sizing: border-box;
 }
-
 body {
     font-family: "Roboto", "Noto Sans TC", sans-serif;
     background-color: #fafafa;
     line-height: 1.5;
+    font-size: 24px;
 }
-
 img {
     max-width: 100%;
     height: auto;
     display: block;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 section {
     margin-bottom: 48px;
 }
@@ -36,7 +33,6 @@ section {
     font-weight: bold;
     margin-bottom: 16px;
 }
-
 .h2 {
     font-size: 32px;
     align-items: center;
@@ -44,56 +40,46 @@ section {
     border-bottom: 1px solid #000000;
     margin-bottom: 16px;
 }
-
 .h2 span {
     font-size: 24px;
     line-height: 1.2;
     color: #A00404;
     margin-left: 16px;
 }
-
 .profile {
     flex-wrap: wrap;
     align-items: center;
     padding: 48px 0px 0px;
 }
-
 .photo {
     max-width: 25%;
     margin-right: 5%;
 }
-
 .profile-inner {
     width: 70%;
 }
-
 .profile-inner p {
     margin-bottom: 24px;
 }
-
 .profile-inner ul {
     display: flex;
     flex-wrap: wrap;
 }
-
 .profile-inner ul li {
     color: #268ba3;
     margin-right: 16px;
 }
-
-.experience li {
-    margin-bottom: 16px;
-    line-height: 1.5;
-}
-
-.experience li span {
-    font-weight: bold;
-}
-
 .ability {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.ability section{
+.ability section {
     width: 45%;
+}
+.experience li {
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+.experience li span {
+    font-weight: bold;
 }
